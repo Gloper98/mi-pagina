@@ -4,33 +4,18 @@
     box-sizing: border-box; 
     font-family: 'Raleway'
 }
-nav {
-    background-color: #232323;
-    color: #fff;
-    height: 50px;
-    padding-top: 7px;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
+
 h4 {
     padding: 4px;
 }
 
-.logo-nav {
-    width: 49px;
-    margin-left: 4px;
-}
+
 .icon-menu {
     font-size: 30px;
     font-weight: 600;
     padding: 4px 5px 6px 10px;
 }
-.icon-search {
-    float: right;
-    font-size: 25px;
-    margin: 7px 13px 7px 7px;
-}
+
 
 .principal-section {
      background-image: url("../assets/images/faking-it.png");
@@ -133,4 +118,10 @@ footer span {
 }
 .most-videos {
     margin: 2px 25px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
 }

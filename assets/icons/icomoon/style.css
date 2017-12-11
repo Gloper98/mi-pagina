@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1jfwec');
-  src:  url('fonts/icomoon.eot?1jfwec#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1jfwec') format('truetype'),
-    url('fonts/icomoon.woff?1jfwec') format('woff'),
-    url('fonts/icomoon.svg?1jfwec#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?r9yxtq');
+  src:  url('fonts/icomoon.eot?r9yxtq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?r9yxtq') format('truetype'),
+    url('fonts/icomoon.woff?r9yxtq') format('woff'),
+    url('fonts/icomoon.svg?r9yxtq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -47,6 +47,9 @@
 }
 .icon-tumblr:before {
   content: "\eab9";
+}
+.icon-circle:before {
+  content: "\e906";
 }
 .icon-chevron-up:before {
   content: "\e905";

@@ -28,6 +28,18 @@
     width: 100%;
     background-size: cover;
 }
+.display-line {
+    display: none;
+}
+.icon-search {
+    float: right;
+    font-size: 25px;
+    margin: 7px 13px 7px 7px;
+}
+.logo-nav {
+    width: 49px;
+    margin-left: 4px;
+}
 .article-image {
     height: 11.3rem;
     background-size: cover;
@@ -97,10 +109,21 @@ h2 {
 .stories-news {
     margin-top: 14px;
 }
-
+nav {
+    background-color: #232323;
+    color: #fff;
+    height: 50px;
+    padding-top: 7px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 
 .time {
     font-size: 10px;
+}
+.menu-dropdown {
+    display: none;
 }
 @media (min-width: 375px) {
     .news {
@@ -544,9 +567,9 @@ h2 {
     margin-left: 25%;
   }
   
-  .col-md-offset-4 {
+  /*.col-md-offset-4 {
     margin-left: 33.33333333%;
-  }
+  }*/
   
   .col-md-offset-5 {
     margin-left: 41.66666667%;
@@ -579,4 +602,101 @@ h2 {
   .col-md-offset-12 {
     margin-left: 100%;
   }
+}
+@media (min-width: 1024px) {
+    .display-burguer {
+        display: none;
+    }
+    .display-menu-video {
+        display: none;
+    }
+    
+    .col-md-8 {
+    width: 66.66666666%;
+    }
+    .row .principal-section {
+        height: 35rem;
+    }
+    .news {
+        background-position: center;
+    }
+    .stories-news {
+         
+    }
+    .article-image {
+        height: 13.4rem;
+        background-position: center;
+    }
+    nav {
+        height: 115px;
+    }
+    .logo-nav {
+    width: 50px;
+    margin-top: 30px;
+    }
+    .icon-search {
+        margin-top: 0px;
+        font-size: 28px;
+    }
+    .dropdown {
+        display: block;
+        background-color: #232323;
+    }
+    .menu-dropdown {
+        display: block;
+    }
+    nav ul {
+        list-style: none;
+        font-weight: 600;
+        font-size: 18px;
+        background-color: #232323;
+        display: inline-block;
+        float: left;
+    }
+    nav li {
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    nav ul ul {
+        position: absolute;
+    }
+    
+    nav li:hover {
+        background-color: rgba(61, 41, 41,0.9);
+        cursor: pointer;
+    }
+    .icon-keyboard_arrow_down {
+	margin-left: 8px;
+    }
+    .icon-circle {
+	font-size: 14px;
+	color: red;
+	margin-left: 8px;
+    }
+    a {
+	text-decoration: none;
+	color: #fff;
+    }
+    .logo-nav {
+        display: inline-block;
+    }
+}
+@media (min-width: 1440px) {
+    .article-image {
+        height: 19.4rem;
+    }
+    .label {
+    margin-top: 11.37em;
+    padding: 4px 10px;
+    font-size: 24px;
+    }
+    .article-title {
+    font-size: 25px;
+    }
+    .time {
+    font-size: 15px;
+    }
+    .col-md-8 {
+    width: 66.66666666%;
+    }
 }
